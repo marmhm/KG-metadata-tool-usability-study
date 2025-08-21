@@ -1,4 +1,4 @@
-# A Gentle Introduction to Turtle (TTL) for Knowledge Graphs
+# Introduction to Turtle (TTL) for Knowledge Graphs
 
 When we talk about the **Semantic Web** and **Knowledge Graphs**, we often need a way to describe data in a simple, structured form. One of the most widely used formats is **Turtle (TTL)**.
 
