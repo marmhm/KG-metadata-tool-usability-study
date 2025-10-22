@@ -51,7 +51,7 @@ Writing in Turtle makes metadata **machine-readable**, so other systems can auto
 
 ## What You Will Do in This Study
 
-In this study, you will work with **three different tools** to describe a few knowledge graphs.  
+In this study, you will work with **three different tools** to describe a few knowledge graphs. We provide you three documents that they describe the Knowledge graphs in natural language format.  
 Each tool approaches the same task in a different way.
 
 ### Tool 1
@@ -70,8 +70,7 @@ After trying each tool, you will complete a short **questionnaire** to share you
 
 ## Why Your Participation Matters
 
-Your feedback will help us understand how people interact with tools for creating metadata and describing knowledge graphs.  
-By taking part, you are helping us design systems that make research data easier to **find**, **share**, and **reuse**.
+Your feedback will help us understand how ow users perceive, use, and benefit from each tool and to what extent AI assistance is helpful in metadata creation. 
 
 > Thank you for being part of this study.  
-> We hope you enjoy exploring how small pieces of information can come together to form a web of knowledge.
+.
