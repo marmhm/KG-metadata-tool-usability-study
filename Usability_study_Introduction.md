@@ -12,7 +12,8 @@ A **knowledge graph** is a specific type of dataset that stores information as c
 Each piece of information is a small fact that links one thing to another.
 
 Look at the example below:
-![Knowledge Graph Example](graph_example.png)
+![Knowledge Graph Example](https://github.com/marmhm/KG-metadata-tool-usability-study/blob/main/knowledge_graph.png?raw=true)
+
 
 In this graph:
 
