@@ -1,6 +1,6 @@
-# Understanding Data and Knowledge Graphs
+# Motivation
 
-Data surrounds us every day. Scientists, cities, and companies all collect data — about weather, traffic, books, or research.  
+Data surrounds us every day. Scientists, cities, and companies all collect data (e.g. about weather, traffic, books, or research).  
 But before we can use any of this data for experiments, analysis, or machine learning, we have to **find it** and **understand what it contains**.  
 Sometimes that is harder than it sounds. Many datasets are shared online with very little explanation. Without knowing who made them, what they describe, or whether we can reuse them, they remain hidden and unused.
 
@@ -8,13 +8,24 @@ Sometimes that is harder than it sounds. Many datasets are shared online with ve
 
 ## What Is a Knowledge Graph?
 
-A **knowledge graph** is a special kind of dataset. Instead of long tables or spreadsheets, it stores information as **connections between things**.  
-Think of it like a **map of facts**. Each connection tells us something simple — for example:
+A **knowledge graph** is a specific type of dataset that stores information as connections between things.
+Each piece of information is a small fact that links one thing to another.
 
-- “Harry Potter was written by J.K. Rowling.”  
-- “Harry Potter is a fantasy novel.”  
+Look at the example below:
+![Knowledge Graph Example](graph_example.png)
 
-Each of these small facts links one thing to another. When many of them are connected, they form a **graph of knowledge** — a web of related ideas that both people and computers can explore.
+In this graph:
+
+Leonardo da Vinci painted The Mona Lisa.
+
+The Mona Lisa is located in the Louvre Museum.
+
+Leonardo da Vinci was born on April 15, 1452, and is an Artist.
+
+Each arrow represents a relationship between two things, forming a network of linked facts.
+When many of these small connections come together, they create a web of knowledge that computers can also understand and search.
+
+So, a knowledge graph is simply a way to organize data as relationships, not just as rows and columns. It helps both humans and machines explore how pieces of information are related.
 
 ---
 
