@@ -73,4 +73,4 @@ After trying each tool, you will complete a short **questionnaire** to share you
 Your feedback will help us understand how ow users perceive, use, and benefit from each tool and to what extent AI assistance is helpful in metadata creation. 
 
 > Thank you for being part of this study.  
-.
+
