@@ -95,7 +95,7 @@ Here:
 
 A simple exaple:
 
-the following text ca be formulated as turtle :
+the following text can be formulated as turtle :
 
 
 There is a dataset about a book called “Harry Potter and the Sorcerer’s Stone.” This book was written by J.K. Rowling. The book was created on June 26, 1997. The subject of the book is fantasy. The dataset is related to a book review called “A Magical Start to a Beloved Series.” The review was published in 1997.
