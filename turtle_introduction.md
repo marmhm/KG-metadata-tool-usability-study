@@ -91,9 +91,61 @@ Here:
 
 ---
 
-## 7. A Complete Knowledge Graph Example
+## 7. Examples
+
+A simple exaple:
+There is a dataset about a book called “Harry Potter and the Sorcerer’s Stone.” This book was written by J.K. Rowling. The book was created on June 26, 1997. The subject of the book is fantasy. The dataset is related to a book review called “A Magical Start to a Beloved Series.” The review was published in 1997.
+
+```ttl
+@prefix ex:  <http://example.org/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# A dataset about a book
+ex:HarryPotterBook a dct:Dataset ;
+    dct:title "Harry Potter and the Sorcerer's Stone" ;
+    dct:creator ex:JkRowling ;
+    dct:dateCreated "1997-06-26"^^xsd:date ;
+    dct:subject "Fantasy Story" ;
+    dct:relation ex:BookReview .
+
+# The person who wrote it
+ex:JkRowling a dct:Agent ;
+    dct:title "J.K. Rowling" .
+
+# A related book review
+ex:BookReview a dct:BibliographicResource ;
+    dct:title "A Magical Start to a Beloved Series" ;
+    dct:issued "1997"^^xsd:gYear .
+```
+
+A Complete Knowledge Graph Example
 
 Now let’s put everything together. We’ll describe a dataset, the person who created it, and a related publication.
+There is a dataset called Dataset1.
+
+Dataset1 is a dataset.
+
+The title of Dataset1 is “Air Quality Data Berlin 2021.”
+
+The creator of Dataset1 is Person1.
+
+Dataset1 was created on September 10, 2021.
+
+The subject of Dataset1 is “Environmental Data.”
+
+Dataset1 is related to another resource called Publication1.
+
+Person1 is an agent.
+
+The title of Person1 is “Dr. Anna Müller.”
+
+Publication1 is a bibliographic resource.
+
+The title of Publication1 is “Air Pollution Trends in European Cities.”
+
+Publication1 was issued in 2022.
+
 
 ```ttl
 @prefix ex:  <http://example.org/> .
