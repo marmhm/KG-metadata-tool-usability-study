@@ -160,7 +160,7 @@ You will upload the natural-language KG document, and the tool will generate **A
 
 *Example screenshot of Tool 3:*
 <p align="center">
-  <img src="llm.png" alt="LLM-Assisted Form" width="500"/>
+  <img src="llm.png" alt="LLM-Assisted Form" width="700"/>
 </p>
 
 
