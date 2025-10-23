@@ -1,4 +1,6 @@
-# Motivation
+# KG Metadata Entry Tools Usability Study Introduction and Instructions
+
+## Motivation
 
 Data surrounds us every day. Scientists, cities, and companies all collect data (e.g. about weather, traffic, books, or research).  
 But before we can use any of this data for experiments, analysis, or machine learning, we have to **find it** and **understand what it contains**.  
