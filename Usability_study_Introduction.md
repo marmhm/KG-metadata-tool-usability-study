@@ -13,7 +13,9 @@ Each piece of information is a small fact that links one thing to another.
 
 Look at the example below:
 ![Knowledge Graph Example](https://github.com/marmhm/KG-metadata-tool-usability-study/blob/main/graph_example.jpg?raw=true)
-
+<p align="center">
+  <img src="graph_example.jpg" alt="graph_example" width="400"/>
+</p>
 
 In this graph:
 
