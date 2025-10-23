@@ -1,4 +1,4 @@
-# KG Metadata Entry Tools Usability Study Introduction and Instructions
+# Knowledge Graph Metadata Entry Tools Usability Study Introduction and Instructions
 
 ## Motivation
 
