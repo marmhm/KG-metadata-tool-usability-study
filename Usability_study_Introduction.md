@@ -47,6 +47,11 @@ For knowledge graphs, it can also include special details such as example querie
 
 For this study you will receive a specification that lists the elements we expect you to fill. Think of it as a checklist. It keeps everyone consistent and makes the descriptions machine readable.
 
+### Metadata Specification
+
+The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights).  
+You can open it [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
+
 Typical elements in the schema:
 
 Title
@@ -99,7 +104,7 @@ Writing in Turtle makes metadata **machine-readable**, so other systems can auto
 
 ## What You Will Do in This Study
 
-In this study, you will work with **three different tools** to describe three knowledge graphs (KGs).  
+You will first sign a consent form, then complete a short background questionnaire. After that, you will perform three main tasks and complete post-task questionnaires, followed by one comparative questionnaire. In these tasks, you will work with **three different tools**  to describe three knowledge graphs (KGs).
 
 We provide you with:
 - **Three short documents** written in natural language. Each one describes a different knowledge graph and includes all the information needed to create its metadata.  
@@ -131,7 +136,7 @@ Here, you will manually create the metadata in Turtle format.
 
 ### Tool 2 – Form Interface
 
-In this tool, you will describe the same KG using a **web form**.  
+In this tool, you will describe a KG using a **web form**.  
 You do not need to write any Turtle syntax — the form automatically converts your answers into valid Turtle.
 
 **Steps:**
@@ -155,7 +160,7 @@ You will upload the natural-language KG document, and the tool will generate **A
 **Steps:**
 1. Upload the KG documentation.  
 2. Click on each metadata field to view the AI suggestions.  
-3. Review the suggestions, and either accept or edit them before adding them to the form.  
+3. Review the suggestions, and if you accept the sugesstion add them. If you dont accept some of the suggesstions you can reject them. 
 4. When the form is complete, the system will produce the machine-readable Turtle version automatically.
 
 *Example screenshot of Tool 3:*
