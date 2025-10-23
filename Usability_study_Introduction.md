@@ -124,7 +124,7 @@ Here, you will manually create the metadata in Turtle format.
 
 *Example screenshot of Tool 1:*
 <p align="center">
-  <img src="text_editor.png" alt="Turtle Editor " width="500"/>
+  <img src="text_editor.png" alt="Turtle Editor " width="700"/>
 </p>
 
 ---
@@ -141,7 +141,7 @@ You do not need to write any Turtle syntax — the form automatically converts y
 
 *Example screenshot of Tool 2:*
 <p align="center">
-  <img src="form.png" alt="form " width="500"/>
+  <img src="form.png" alt="form " width="700"/>
 </p>
 
 
