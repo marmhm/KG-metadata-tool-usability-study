@@ -100,6 +100,9 @@ This means:
 
 Writing in Turtle makes metadata **machine-readable**, so other systems can automatically find and understand datasets.
 
+If you are new to Turtle, we have prepared a short introduction to help you understand the basics.  
+You can read it [here](https://github.com/marmhm/KG-metadata-tool-usability-study/blob/main/turtle_introduction.md).
+
 ---
 
 ## What You Will Do in This Study
@@ -185,7 +188,7 @@ After trying each tool, you will complete a short **questionnaire** to share you
 
 ## Why Your Participation Matters
 
-Your feedback will help us understand how ow users perceive, use, and benefit from each tool and to what extent AI assistance is helpful in metadata creation. 
+Your feedback will help us understand how users perceive, use, and benefit from each tool and to what extent each tool is helpful in metadata curation. 
 
 > Thank you for being part of this study.  
 
