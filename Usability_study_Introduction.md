@@ -192,3 +192,11 @@ Your feedback will help us understand how users perceive, use, and benefit from 
 
 > Thank you for being part of this study.  
 
+## Voluntary Participation
+
+Your participation is completely voluntary. You may withdraw at any time without providing a reason. If you withdraw, your data will not be used. We assume that you will bring your laptop with you.
+
+
+## Confidentiality and Data Protection
+
+Your data will be treated with strict confidentiality. On the day of the study, you will recieve a participant code (e.g., P01, P02) which will be used instead of your name. All files (task outputs, timing logs, questionnaire responses) will only carry this code. Your consent form, which contains your name, will be stored securely and separately from the research data and it is only accessible by Principal investigator. The research dataset will therefore contain no direct identifiers. In accordance with GDPR, you have the right to withdraw your data from the study at any time without giving a reason and without any consequences. If you choose to withdraw, you can send an email to study coordinator, and he will delete your research data immediately.
