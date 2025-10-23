@@ -14,7 +14,7 @@ Each piece of information is a small fact that links one thing to another.
 Look at the example below:
 
 <p align="center">
-  <img src="graph_example.jpg" alt="graph_example" width="400"/>
+  <img src="graph_example.jpg" alt="graph_example" width="500"/>
 </p>
 
 In this graph:
@@ -123,7 +123,9 @@ Here, you will manually create the metadata in Turtle format.
 5. Use the editor’s validation to check that your Turtle is syntactically correct.
 
 *Example screenshot of Tool 1:*
-![Tool 1 Screenshot](images/tool1_editor.png)
+<p align="center">
+  <img src="text_editor.png" alt="Turtle Editor " width="500"/>
+</p>
 
 ---
 
@@ -138,7 +140,10 @@ You do not need to write any Turtle syntax — the form automatically converts y
 3. Review how the form displays your data as generated Turtle code.
 
 *Example screenshot of Tool 2:*
-![Tool 2 Screenshot](images/tool2_form.png)
+<p align="center">
+  <img src="form.png" alt="form " width="500"/>
+</p>
+
 
 ---
 
@@ -154,7 +159,10 @@ You will upload the natural-language KG document, and the tool will generate **A
 4. When the form is complete, the system will produce the machine-readable Turtle version automatically.
 
 *Example screenshot of Tool 3:*
-![Tool 3 Screenshot](images/tool3_llm.png)
+<p align="center">
+  <img src="llm.png" alt="LLM-Assisted Form" width="500"/>
+</p>
+
 
 ---
 
