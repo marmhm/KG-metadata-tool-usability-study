@@ -72,38 +72,38 @@ For this study you will receive a specification that lists the elements we expec
 The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights).  
 You can open it [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
 
-Below is an overview of the **typical metadata elements** included in the schema:
+### Metadata Specification
 
-| **Element** | **Description** | **Example or Notes** |
-|--------------|-----------------|----------------------|
-| **Title** | The name of the knowledge graph. | “YAGO Knowledge Graph” |
-| **Description** | A short summary of what the dataset contains. | “A semantic knowledge base derived from Wikipedia, WordNet, and GeoNames.” |
-| **Keywords** | Descriptive words that help others find the dataset. | “knowledge graph”, “semantic web”, “ontology” |
-| **Languages** | The languages used in the dataset. | “en”, “de” |
-| **Creator / Publisher Details** | Information about the dataset creators and publishers. | Name, organization, contact, or IRI |
-| **Roles** | Type of role (e.g., author, curator) and the agent who fulfills it. | Role type + agent name, email, or IRI |
-| **Access Rights / License** | Conditions for reuse and distribution. | “CC-BY 4.0” |
-| **Theme / Category** | A topical category (preferably as an IRI). | `<http://eurovoc.europa.eu/100141>` |
-| **Sources / Linked Resources** | External datasets referenced or connected. | Links to other datasets’ IRIs |
-| **Distribution Information** | Details about how and where the dataset can be accessed. | See example below |
-| **SPARQL Endpoint Information** | Connection details for querying the graph. | Endpoint URL, title, description, status |
-| **Example Resource** | A sample URI from the dataset. | `<http://yago-knowledge.org/resource/YAGO_example>` |
-| **Example Queries** | Short SPARQL query examples. | Demonstrates how to retrieve data |
+The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights).  
+You can open it [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
+
+Below is an overview of the **metadata elements** included in the schema:
+
+| **Element** | **Description** | **Data Type** | **Example or Notes** |
+|--------------|-----------------|----------------|----------------------|
+| **Identifier** | A unique ID for the dataset. | `rdfs:Literal` or `IRI` | `<http://yago-knowledge.org>` |
+| **Type** | The dataset type. | `dcat:Dataset` | — |
+| **Title** | The name of the knowledge graph. | `rdf:LangString` or `xsd:string` | “YAGO Knowledge Graph” |
+| **Description** | A short summary of what the dataset contains. | `rdf:LangString` or `xsd:string` | “A semantic knowledge base derived from Wikipedia, WordNet, and GeoNames.” |
+| **Alternative Title / Acronym** | Other names or abbreviations used. | `rdf:LangString` or `xsd:string` | “YAGO”, “Yet Another Great Ontology” |
+| **Keywords** | Descriptive words that help others find the dataset. | `rdf:LangString` or `xsd:string` | “knowledge graph”, “semantic web”, “ontology” |
+| **Languages** | The languages used in the dataset. | `xsd:string` | “en”, “de” |
+| **Creator / Publisher Details** | Information about the dataset creators and publishers. | `IRI` or text | Name, organization, contact |
+| **Roles** | Type of role (e.g., author, curator) and the agent who fulfills it. | — | Role type + agent name, email, or IRI |
+| **Access Rights / License** | Conditions for reuse and distribution. | `xsd:string` | “CC-BY 4.0” |
+| **Theme / Category** | A topical category (preferably as an IRI). | `IRI` | `<http://eurovoc.europa.eu/100141>` |
+| **Sources / Linked Resources** | External datasets referenced or connected. | `IRI` | Links to other datasets’ IRIs |
+| **Distribution Information** | How and where the dataset can be accessed. Includes sub-elements: **title**, **description**, **mediaType**, **downloadURL**, **accessURL**. | `IRI` or `xsd:string` | Example: title “YAGO files”; description “YAGO download page”; mediaType “link”; downloadURL [http://yago-knowledge.org](http://yago-knowledge.org); accessURL [http://yago-knowledge.org](http://yago-knowledge.org) |
+| **SPARQL Endpoint Information** | Details for querying the dataset. | `IRI` or text | Endpoint URL, title, short description, status |
+| **Example Resource** | A sample URI from the dataset. | `IRI` | `<http://yago-knowledge.org/resource/YAGO_example>` |
+| **Example Queries** | Short SPARQL query examples. | `xsd:string` | Demonstrates how to retrieve data |
 
 ---
 
-#### Example: Data Distribution and Access
+The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
+Some elements, such as **Distribution Information**, contain **sub-elements** like *mediaType*, *downloadURL*, and *accessURL*.
 
-Some metadata elements, like **Distribution Information**, include **sub-elements**.  
-For example, YAGO’s dataset distributions are described using the **DCAT model**, with the following details:
 
-| **Sub-element** | **Value** |
-|------------------|-----------|
-| **title** | “YAGO files” |
-| **description** | “YAGO download page” |
-| **mediaType** | “link” |
-| **downloadURL** | [http://yago-knowledge.org](http://yago-knowledge.org) |
-| **accessURL** | [http://yago-knowledge.org](http://yago-knowledge.org) |
 
 ---
 
@@ -112,7 +112,7 @@ For instance, a title is free text, a theme is an IRI, a date follows a standard
 
 
 ## Writing Metadata in Turtle Format
-# Please note: You are not required to know Turtle for this study.
+### Please note: You are not required to know Turtle for this study.
 
 Metadata for knowledge graphs is often written using a simple, structured data language called **Turtle**.  
 It expresses information as short statements that both humans and computers can read, such as:
