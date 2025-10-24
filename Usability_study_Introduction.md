@@ -104,11 +104,27 @@ The schema specifies which elements are **required** and which are **optional**,
 Some elements, such as **Distribution Information**, contain **sub-elements** like *mediaType*, *downloadURL*, and *accessURL*.
 
 
-
 ---
 
 The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
 For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
+
+
+### Metadata Specification (Excerpt)
+
+Below is a sample of five fields from the metadata specification, showing how each element is defined, its expected data type, its purpose, and an example from Wikidata.
+
+| **Field** | **Value Specification** | **Purpose / Use** | **Wikidata Metadata Example** |
+|------------|-------------------------|-------------------|-------------------------------|
+| **Identifier** | `rdfs:Literal` or `IRI` | A unique identifier for the dataset. | `wd:Q2013` |
+| **Title** | `rdf:LangString` or `xsd:string` | The main name of the dataset or knowledge graph. | `"Wikidata Knowledge Base"` |
+| **Description** | `rdf:LangString` or `xsd:string` | Provides a short explanation of the dataset content and scope. | `"A free and open knowledge base that can be read and edited by humans and machines."` |
+| **Theme / Category** | `IRI` | Specifies the topical area or classification of the dataset. | `<http://www.wikidata.org/entity/Q21198>` (Ontology) |
+| **Distribution Information** | `IRI` or `xsd:string` (includes sub-elements: *title*, *description*, *mediaType*, *downloadURL*, *accessURL*) | Describes how and where the dataset is made available. | title: “Wikidata dump files”; mediaType: “application/gzip”; downloadURL: [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/) |
+
+---
+
+*Note:* The full metadata specification lists additional fields and defines which are **required** or **optional**. Some elements (like *Distribution Information*) include structured **sub-elements** for more detailed access descriptions.
 
 
 ## Writing Metadata in Turtle Format
