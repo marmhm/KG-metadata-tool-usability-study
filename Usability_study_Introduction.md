@@ -1,5 +1,23 @@
 # Knowledge Graph Metadata Entry Tools Usability Study Introduction and Instructions
 
+# Table of Contents
+- [Knowledge Graph Metadata Entry Tools Usability Study Introduction and Instructions](#knowledge-graph-metadata-entry-tools-usability-study-introduction-and-instructions)
+  - [Motivation](#motivation)
+  - [What Is a Knowledge Graph?](#what-is-a-knowledge-graph)
+  - [Metadata](#metadata)
+  - [Metadata Specification You Will Use](#Metadata-Specification-You-Will-Use)
+    - [Metadata Specification](#metadata-specification)
+  - [Writing Metadata in Turtle Format](#Writing-Metadata-in-Turtle-Format)
+  - [Your Tasks in This Study](#Your-Tasks-in-This-Study)
+    - [Tool 1 – Turtle Editor](#tool-1--turtle-editor)
+    - [Tool 2 – Form Interface](#tool-2--form-interface)
+    - [Tool 3 – LLM-Assisted Form](#tool-3--llm-assisted-form)
+    - [After Completing the Tasks](#after-completing-the-tasks)
+  - [Why Your Participation Matters](#why-your-participation-matters)
+  - [Voluntary Participation](#voluntary-participation)
+  - [Confidentiality and Data Protection](#confidentiality-and-data-protection)
+
+
 ## Motivation
 
 Data surrounds us every day. Scientists, cities, and companies all collect data (e.g. about weather, traffic, books, or research).  
@@ -45,7 +63,7 @@ For knowledge graphs, it can also include special details such as example querie
 
 ---
 
-## The metadata specification you will use
+## Metadata Specification You Will Use
 
 For this study you will receive a specification that lists the elements we expect you to fill. Think of it as a checklist. It keeps everyone consistent and makes the descriptions machine readable.
 
@@ -84,10 +102,10 @@ Example queries (short SPARQL examples where relevant)
 
 The schema states which elements are required and which are optional. It also shows the expected value type. For example, a title is free text, a theme is an IRI, a date follows the date format, and a distribution has specific subfields.
 
-## How We Describe a Knowledge Graph
+## Writing Metadata in Turtle Format
 
-Traditionally, people write metadata using a simple data language called **Turtle**.  
-It looks a little like short sentences that a computer can read, such as:
+Metadata for knowledge graphs is often written using a simple, structured data language called **Turtle**.  
+It expresses information as short statements that both humans and computers can read, such as:
 
 ```turtle
 @prefix ex: <http://example.org/> .
@@ -107,7 +125,7 @@ You can read it [here](https://github.com/marmhm/KG-metadata-tool-usability-stud
 
 ---
 
-## What You Will Do in This Study
+## Your Tasks in This Study
 
 You will first sign a consent form, then complete a short background questionnaire. After that, you will perform three main tasks and complete post-task questionnaires, followed by one comparative questionnaire. In these tasks, you will work with **three different tools**  to describe three knowledge graphs (KGs).
 
