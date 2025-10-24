@@ -1,21 +1,21 @@
 # Knowledge Graph Metadata Entry Tools Usability Study Introduction and Instructions
 
 # Table of Contents
-- [Knowledge Graph Metadata Entry Tools Usability Study Introduction and Instructions](#knowledge-graph-metadata-entry-tools-usability-study-introduction-and-instructions)
-  - [Motivation](#motivation)
-  - [What Is a Knowledge Graph?](#what-is-a-knowledge-graph)
-  - [Metadata](#metadata)
-  - [Metadata Specification You Will Use](#Metadata-Specification-You-Will-Use)
-    - [Metadata Specification](#metadata-specification)
-  - [Writing Metadata in Turtle Format](#Writing-Metadata-in-Turtle-Format)
-  - [Your Tasks in This Study](#Your-Tasks-in-This-Study)
-    - [Tool 1 – Turtle Editor](#tool-1--turtle-editor)
-    - [Tool 2 – Form Interface](#tool-2--form-interface)
-    - [Tool 3 – LLM-Assisted Form](#tool-3--llm-assisted-form)
-    - [After Completing the Tasks](#after-completing-the-tasks)
-  - [Why Your Participation Matters](#why-your-participation-matters)
-  - [Voluntary Participation](#voluntary-participation)
-  - [Confidentiality and Data Protection](#confidentiality-and-data-protection)
+- [Motivation](#motivation)
+- [What Is a Knowledge Graph?](#what-is-a-knowledge-graph)
+- [Metadata](#metadata)
+- [Metadata Specification You Will Use](#metadata-specification-you-will-use)
+  - [Metadata Specification](#metadata-specification)
+- [Writing Metadata in Turtle Format](#writing-metadata-in-turtle-format)
+- [Your Tasks in This Study](#your-tasks-in-this-study)
+  - [Tool 1 – Turtle Editor](#tool-1--turtle-editor)
+  - [Tool 2 – Form Interface](#tool-2--form-interface)
+  - [Tool 3 – LLM-Assisted Form](#tool-3--llm-assisted-form)
+  - [After Completing the Tasks](#after-completing-the-tasks)
+- [Why Your Participation Matters](#why-your-participation-matters)
+- [Voluntary Participation](#voluntary-participation)
+- [Confidentiality and Data Protection](#confidentiality-and-data-protection)
+
 
 
 ## Motivation
@@ -72,37 +72,47 @@ For this study you will receive a specification that lists the elements we expec
 The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights).  
 You can open it [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
 
-Typical elements in the schema:
+Below is an overview of the **typical metadata elements** included in the schema:
 
-Title
+| **Element** | **Description** | **Example or Notes** |
+|--------------|-----------------|----------------------|
+| **Title** | The name of the knowledge graph. | “YAGO Knowledge Graph” |
+| **Description** | A short summary of what the dataset contains. | “A semantic knowledge base derived from Wikipedia, WordNet, and GeoNames.” |
+| **Keywords** | Descriptive words that help others find the dataset. | “knowledge graph”, “semantic web”, “ontology” |
+| **Languages** | The languages used in the dataset. | “en”, “de” |
+| **Creator / Publisher Details** | Information about the dataset creators and publishers. | Name, organization, contact, or IRI |
+| **Roles** | Type of role (e.g., author, curator) and the agent who fulfills it. | Role type + agent name, email, or IRI |
+| **Access Rights / License** | Conditions for reuse and distribution. | “CC-BY 4.0” |
+| **Theme / Category** | A topical category (preferably as an IRI). | `<http://eurovoc.europa.eu/100141>` |
+| **Sources / Linked Resources** | External datasets referenced or connected. | Links to other datasets’ IRIs |
+| **Distribution Information** | Details about how and where the dataset can be accessed. | See example below |
+| **SPARQL Endpoint Information** | Connection details for querying the graph. | Endpoint URL, title, description, status |
+| **Example Resource** | A sample URI from the dataset. | `<http://yago-knowledge.org/resource/YAGO_example>` |
+| **Example Queries** | Short SPARQL query examples. | Demonstrates how to retrieve data |
 
-Description
+---
 
-Keywords
+#### Example: Data Distribution and Access
 
-Languages
+Some metadata elements, like **Distribution Information**, include **sub-elements**.  
+For example, YAGO’s dataset distributions are described using the **DCAT model**, with the following details:
 
-Creator and publisher details
+| **Sub-element** | **Value** |
+|------------------|-----------|
+| **title** | “YAGO files” |
+| **description** | “YAGO download page” |
+| **mediaType** | “link” |
+| **downloadURL** | [http://yago-knowledge.org](http://yago-knowledge.org) |
+| **accessURL** | [http://yago-knowledge.org](http://yago-knowledge.org) |
 
-Roles (role type and the agent, for example name and email or agent IRI)
+---
 
-Access rights and license
+The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
+For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
 
-Theme or category (as an IRI where possible)
-
-Sources and linked resources (IRIs for external datasets)
-
-Distribution information (download and access URLs, media type)
-
-SPARQL endpoint information (endpoint URL, identifier, title, short description, status)
-
-Example resource (a concrete URI that shows the pattern)
-
-Example queries (short SPARQL examples where relevant)
-
-The schema states which elements are required and which are optional. It also shows the expected value type. For example, a title is free text, a theme is an IRI, a date follows the date format, and a distribution has specific subfields.
 
 ## Writing Metadata in Turtle Format
+# Please note: You are not required to know Turtle for this study.
 
 Metadata for knowledge graphs is often written using a simple, structured data language called **Turtle**.  
 It expresses information as short statements that both humans and computers can read, such as:
