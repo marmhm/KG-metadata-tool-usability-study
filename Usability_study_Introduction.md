@@ -65,14 +65,12 @@ For knowledge graphs, it can also include special details such as example querie
 
 ## Metadata Specification You Will Use
 
-For this study you will receive a specification that lists the elements we expect you to fill. Think of it as a checklist. It keeps everyone consistent and makes the descriptions machine readable.
-
-The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights).  
-You can open it [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
-
-### Metadata Specification (Excerpt)
+For this study you will receive a specification that lists the elements we expect you to fill. Think of it as a checklist. It keeps everyone consistent and makes the descriptions machine readable. The **metadata specification** lists all the elements you need to describe for each knowledge graph (such as title, description, creator, keywords, and access rights). 
 
 Below is a sample of five fields from the metadata specification, showing how each element is defined, its expected data type, its purpose, and an example from Wikidata.
+
+You can access the full KG metadata specification [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
+
 
 | **Field** | **Value Specification** | **Purpose / Use** | **Wikidata Metadata Example** |
 |------------|-------------------------|-------------------|-------------------------------|
@@ -87,6 +85,23 @@ Below is a sample of five fields from the metadata specification, showing how ea
 *Note:* The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
 For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
 
+<table style="width:80%; font-size:95%; margin:auto;">
+<thead>
+<tr>
+<th>Field</th>
+<th>Value Type</th>
+<th>Purpose / Use</th>
+<th>Wikidata Example</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><b>Identifier</b></td><td><code>rdfs:Literal</code> / <code>IRI</code></td><td>Unique dataset ID.</td><td><code>wd:Q2013</code></td></tr>
+<tr><td><b>Title</b></td><td><code>rdf:LangString</code> / <code>xsd:string</code></td><td>Dataset name.</td><td>"Wikidata Knowledge Base"</td></tr>
+<tr><td><b>Description</b></td><td><code>rdf:LangString</code> / <code>xsd:string</code></td><td>Short dataset summary.</td><td>"Free and open knowledge base."</td></tr>
+<tr><td><b>Theme / Category</b></td><td><code>IRI</code></td><td>Dataset topic.</td><td>&lt;http://www.wikidata.org/entity/Q21198&gt;</td></tr>
+<tr><td><b>Distribution Info</b></td><td><code>IRI</code> / <code>xsd:string</code><br><i>(title, description, mediaType, downloadURL, accessURL)</i></td><td>Dataset access details.</td><td><a href="https://dumps.wikimedia.org">dumps.wikimedia.org</a></td></tr>
+</tbody>
+</table>
 
 ## Writing Metadata in Turtle Format
 ### Please note: You are not required to know Turtle for this study.
