@@ -5,7 +5,6 @@
 - [What Is a Knowledge Graph?](#what-is-a-knowledge-graph)
 - [Metadata](#metadata)
 - [Metadata Specification You Will Use](#metadata-specification-you-will-use)
-  - [Metadata Specification](#metadata-specification)
 - [Writing Metadata in Turtle Format](#writing-metadata-in-turtle-format)
 - [Your Tasks in This Study](#your-tasks-in-this-study)
   - [Tool 1 – Turtle Editor](#tool-1--turtle-editor)
@@ -87,54 +86,51 @@ For instance, a title is free text, a theme is an IRI, a date follows a standard
 
 <h3>Metadata Specification (Excerpt)</h3>
 
-<p>Below is a concise sample of five fields from the metadata specification, showing each element’s value type, purpose, and a Wikidata example.</p>
-
-<table style="width:85%; font-size:90%; margin:auto; border-collapse:collapse;">
+<table style="width:80%; font-size:88%; margin:auto; border-collapse:collapse;">
 <thead>
 <tr>
 <th style="border-bottom:1px solid #ccc; padding:6px;">Field</th>
-<th style="border-bottom:1px solid #ccc; padding:6px;">Value Type</th>
+<th style="border-bottom:1px solid #ccc; padding:6px;">Value Specification</th>
 <th style="border-bottom:1px solid #ccc; padding:6px;">Purpose / Use</th>
-<th style="border-bottom:1px solid #ccc; padding:6px;">Wikidata Example</th>
+<th style="border-bottom:1px solid #ccc; padding:6px;">Wikidata Metadata Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="padding:6px;"><b>Identifier</b></td>
-<td style="padding:6px;"><code>rdfs:Literal</code> / <code>IRI</code></td>
-<td style="padding:6px;">Unique dataset ID.</td>
+<td style="padding:6px;"><code>rdfs:Literal</code> or <code>IRI</code></td>
+<td style="padding:6px;">A unique identifier for the dataset.</td>
 <td style="padding:6px;"><code>wd:Q2013</code></td>
 </tr>
 <tr>
 <td style="padding:6px;"><b>Title</b></td>
-<td style="padding:6px;"><code>rdf:LangString</code> / <code>xsd:string</code></td>
-<td style="padding:6px;">Main name of the dataset.</td>
-<td style="padding:6px;">"Wikidata Knowledge Base"</td>
+<td style="padding:6px;"><code>rdf:LangString</code> or <code>xsd:string</code></td>
+<td style="padding:6px;">The main name of the dataset or knowledge graph.</td>
+<td style="padding:6px;"><code>"Wikidata Knowledge Base"</code></td>
 </tr>
 <tr>
 <td style="padding:6px;"><b>Description</b></td>
-<td style="padding:6px;"><code>rdf:LangString</code> / <code>xsd:string</code></td>
-<td style="padding:6px;">Short explanation of dataset content.</td>
-<td style="padding:6px;">"A free and open knowledge base editable by humans and machines."</td>
+<td style="padding:6px;"><code>rdf:LangString</code> or <code>xsd:string</code></td>
+<td style="padding:6px;">Provides a short explanation of the dataset content and scope.</td>
+<td style="padding:6px;"><code>"A free and open knowledge base that can be read and edited by humans and machines."</code></td>
 </tr>
 <tr>
 <td style="padding:6px;"><b>Theme / Category</b></td>
 <td style="padding:6px;"><code>IRI</code></td>
-<td style="padding:6px;">Topical area or classification.</td>
-<td style="padding:6px;">&lt;http://www.wikidata.org/entity/Q21198&gt;</td>
+<td style="padding:6px;">Specifies the topical area or classification of the dataset.</td>
+<td style="padding:6px;"><code>&lt;http://www.wikidata.org/entity/Q21198&gt;</code> (Ontology)</td>
 </tr>
 <tr>
 <td style="padding:6px;"><b>Distribution Information</b></td>
-<td style="padding:6px;"><code>IRI</code> / <code>xsd:string</code><br><i>(sub-elements: title, description, mediaType, downloadURL, accessURL)</i></td>
-<td style="padding:6px;">Describes how and where the dataset can be accessed.</td>
-<td style="padding:6px;">title: “Wikidata dumps”; mediaType: “gzip”; <a href="https://dumps.wikimedia.org">dumps.wikimedia.org</a></td>
+<td style="padding:6px;"><code>IRI</code> or <code>xsd:string</code> (includes sub-elements: <i>title, description, mediaType, downloadURL, accessURL</i>)</td>
+<td style="padding:6px;">Describes how and where the dataset is made available.</td>
+<td style="padding:6px;">title: “Wikidata dump files”; mediaType: “application/gzip”; downloadURL: <a href="https://dumps.wikimedia.org/wikidatawiki/entities/">https://dumps.wikimedia.org/wikidatawiki/entities/</a></td>
 </tr>
 </tbody>
 </table>
 
-<p style="font-size:90%; text-align:center; margin-top:10px;">
-<em>Note:</em> Some fields, such as <strong>Distribution Information</strong>, include <strong>sub-elements</strong> for more detailed access descriptions.  
-The full schema defines all fields, their data types, and whether they are required or optional.
+<p style="font-size:85%; text-align:center; margin-top:10px;">
+<em>Note:</em> Some fields, such as <strong>Distribution Information</strong>, include <strong>sub-elements</strong> for more detailed access descriptions.
 </p>
 
 
