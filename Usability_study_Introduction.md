@@ -71,19 +71,6 @@ Below is a sample of five fields from the metadata specification, showing how ea
 You can access the full KG metadata specification [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
 
 
-| **Field** | **Value Specification** | **Purpose / Use** | **Wikidata Metadata Example** |
-|------------|-------------------------|-------------------|-------------------------------|
-| **Identifier** | `rdfs:Literal` or `IRI` | A unique identifier for the dataset. | `wd:Q2013` |
-| **Title** | `rdf:LangString` or `xsd:string` | The main name of the dataset or knowledge graph. | `"Wikidata Knowledge Base"` |
-| **Description** | `rdf:LangString` or `xsd:string` | Provides a short explanation of the dataset content and scope. | `"A free and open knowledge base that can be read and edited by humans and machines."` |
-| **Theme / Category** | `IRI` | Specifies the topical area or classification of the dataset. | `<http://www.wikidata.org/entity/Q21198>` (Ontology) |
-| **Distribution Information** | `IRI` or `xsd:string` (includes sub-elements: *title*, *description*, *mediaType*, *downloadURL*, *accessURL*) | Describes how and where the dataset is made available. | title: “Wikidata dump files”; mediaType: “application/gzip”; downloadURL: [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/) |
-
----
-
-*Note:* The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
-For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
-
 <h3>Metadata Specification (Excerpt)</h3>
 
 <table style="width:80%; font-size:88%; margin:auto; border-collapse:collapse;">
@@ -132,6 +119,10 @@ For instance, a title is free text, a theme is an IRI, a date follows a standard
 <p style="font-size:85%; text-align:center; margin-top:10px;">
 <em>Note:</em> Some fields, such as <strong>Distribution Information</strong>, include <strong>sub-elements</strong> for more detailed access descriptions.
 </p>
+---
+
+*Note:* The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
+For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
 
 
 ## Writing Metadata in Turtle Format
