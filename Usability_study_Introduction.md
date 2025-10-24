@@ -181,12 +181,11 @@ Here, you will manually create the metadata in Turtle format.
 ### Tool 2 – Form Interface
 
 In this tool, you will describe a KG using a **web form**.  
-You do not need to write any Turtle syntax — the form automatically converts your answers into valid Turtle.
+You do not need to write any Turtle syntax — the form automatically converts your answers into structered format.
 
 **Steps:**
 1. Skim the KG documentation.  
 2. Fill in the field values according to the metadata specification.  
-3. Review how the form displays your data as generated Turtle code.
 
 *Example screenshot of Tool 2:*
 <p align="center">
@@ -205,7 +204,6 @@ You will upload the natural-language KG document, and the tool will generate **A
 1. Upload the KG documentation.  
 2. Click on each metadata field to view the AI suggestions.  
 3. Review the suggestions, and if you accept the sugesstion add them. If you dont accept some of the suggesstions you can reject them. 
-4. When the form is complete, the system will produce the machine-readable Turtle version automatically.
 
 *Example screenshot of Tool 3:*
 <p align="center">
@@ -217,13 +215,12 @@ You will upload the natural-language KG document, and the tool will generate **A
 
 ### After Completing the Tasks
 
-After trying each tool, you will complete a short questionnaire about your experience.  
+After trying each tool, you will complete a short questionnaire about usability and acceptence of the tool.
+
 You will be asked how easy each tool was to use, how helpful it felt, and what could be improved.  
 
 Your feedback will help us understand which approach makes metadata creation most efficient and user-friendly.
 
-
-After trying each tool, you will complete a short **questionnaire** to share your experience — how easy it was to use, what you liked, and what could be improved.
 
 ---
 
