@@ -68,7 +68,7 @@ For this study you will receive a specification that lists the elements we expec
 
 Below is a sample of five fields from the metadata specification, showing how each element is defined, its expected data type, its purpose, and an example from Wikidata.
 
-You can access the full KG metadata specification [here on Google Sheets](https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing).
+You can access the full KG metadata specification [here on Google Sheets]([https://docs.google.com/spreadsheets/d/1g6ypMzaRt6Z6rhNu4MMwgVdFJO0W47astvhXcxx66N4/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1pC6Hj6wl-uzyFeBmK19f_UaQyuUN4-DQ/edit?usp=sharing&ouid=103705832009765615891&rtpof=true&sd=true)).
 
 
 <h3>Metadata Specification (Excerpt)</h3>
