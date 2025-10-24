@@ -116,9 +116,6 @@ You can access the full KG metadata specification [here on Google Sheets](https:
 </tbody>
 </table>
 
-<p style="font-size:85%; text-align:center; margin-top:10px;">
-<em>Note:</em> Some fields, such as <strong>Distribution Information</strong>, include <strong>sub-elements</strong> for more detailed access descriptions.
-</p>
 ---
 
 *Note:* The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
