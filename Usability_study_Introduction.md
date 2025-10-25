@@ -241,7 +241,7 @@ Your data will be treated with strict confidentiality. On the day of the study, 
 
 Data Collection
 We will collect task performance data (time, completion, accuracy), questionnaire responses, and participants background information. Particularly, we will collect the following data during the study:
- - Task outputs: metadata files in Turtle or JSON-LD format ( 3 files per participant, ~30 files total for 10 participants ).
- - Task performance logs: automatically recorded start and end times ( 1 log file per participant, ~10 files ).
+ - Task outputs: metadata files in Turtle or JSON format ( 3 files per participant, ~30 files total for 10 participants ).
+ - Task performance logs: automatically recorded start and end times.
  - Questionnaire responses: pre-study background survey, three post-task questionnaires, and one final comparative questionnaire ( ~5 files ).
 
