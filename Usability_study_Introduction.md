@@ -238,3 +238,10 @@ Your participation is completely voluntary. You may withdraw at any time without
 ## Confidentiality and Data Protection
 
 Your data will be treated with strict confidentiality. On the day of the study, you will recieve a participant code (e.g., P01, P02) which will be used instead of your name. All files (task outputs, timing logs, questionnaire responses) will only carry this code. Your consent form, which contains your name, will be stored securely and separately from the research data and it is only accessible by Principal investigator. The research dataset will therefore contain no direct identifiers. In accordance with GDPR, you have the right to withdraw your data from the study at any time without giving a reason and without any consequences. If you choose to withdraw, you can send an email to study coordinator, and he will delete your research data immediately.
+
+Data Collection
+We will collect task performance data (time, completion, accuracy), questionnaire responses, and participants background information. Particularly, we will collect the following data during the study:
+ - Task outputs: metadata files in Turtle or JSON-LD format ( 3 files per participant, ~30 files total for 10 participants ).
+ - Task performance logs: automatically recorded start and end times ( 1 log file per participant, ~10 files ).
+ - Questionnaire responses: pre-study background survey, three post-task questionnaires, and one final comparative questionnaire ( ~5 files ).
+
