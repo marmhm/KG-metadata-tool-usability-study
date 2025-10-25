@@ -7,9 +7,9 @@
 - [Metadata Specification You Will Use](#metadata-specification-you-will-use)
 - [Writing Metadata in Turtle Format](#writing-metadata-in-turtle-format)
 - [Your Tasks in This Study](#your-tasks-in-this-study)
-  - [Tool 1 – Turtle Editor](#tool-1--turtle-editor)
-  - [Tool 2 – Form Interface](#tool-2--form-interface)
-  - [Tool 3 – LLM-Assisted Form](#tool-3--llm-assisted-form)
+  - [Tool A – Turtle Editor](#tool-A--turtle-editor)
+  - [Tool B – Form Interface](#tool-B--form-interface)
+  - [Tool C – LLM-Assisted Form](#tool-C--llm-assisted-form)
   - [After Completing the Tasks](#after-completing-the-tasks)
 - [Why Your Participation Matters](#why-your-participation-matters)
 - [Voluntary Participation](#voluntary-participation)
@@ -159,7 +159,7 @@ Each tool lets you do this in a different way.
 
 ---
 
-### Tool 1 – Turtle Editor
+### Tool A – Turtle Editor
 
 This tool provides a **text editor** with Turtle syntax validation.  
 Here, you will manually create the metadata in Turtle format.
@@ -178,7 +178,7 @@ Here, you will manually create the metadata in Turtle format.
 
 ---
 
-### Tool 2 – Form Interface
+### Tool B – Form Interface
 
 In this tool, you will describe a KG using a **web form**.  
 You do not need to write any Turtle syntax — the form automatically converts your answers into structered format.
@@ -195,7 +195,7 @@ You do not need to write any Turtle syntax — the form automatically converts y
 
 ---
 
-### Tool 3 – LLM-Assisted Form
+### Tool C – LLM-Assisted Form
 
 The third tool uses **AI assistance** to help you fill the metadata form.  
 You will upload the natural-language KG document, and the tool will generate **AI suggestions** for each metadata field.
