@@ -121,6 +121,8 @@ You can access the full KG metadata specification [here on Google Sheets](https:
 *Note:* The schema specifies which elements are **required** and which are **optional**, and defines the **expected value type** for each.  
 For instance, a title is free text, a theme is an IRI, a date follows a standard date format, and a distribution includes structured subfields like *mediaType*, *downloadURL*, and *accessURL*.
 
+*Note:* The “optional” and “required” indicators on this form apply only to the final version of the tool. For the purposes of this user study, please disregard them and complete as many fields as you are able to.
+
 
 ## Writing Metadata in Turtle Format
 ### Please note: You are not required to know Turtle for this study.
