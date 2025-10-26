@@ -109,9 +109,24 @@ You can access the full KG metadata specification [here on Google Sheets](https:
 </tr>
 <tr>
 <td style="padding:6px;"><b>Distribution Information</b></td>
-<td style="padding:6px;">dcat:Distribution (includes sub-elements: <i>title, description, mediaType, downloadURL, accessURL</i>)</td>
+<td style="padding:6px;">
+  <code>dcat:Distribution</code><br>
+  (includes sub-elements:<br>
+  &nbsp;&nbsp;<i>title</i><br>
+  &nbsp;&nbsp;<i>description</i><br>
+  &nbsp;&nbsp;<i>mediaType</i><br>
+  &nbsp;&nbsp;<i>downloadURL</i><br>
+  &nbsp;&nbsp;<i>accessURL</i>)
+</td>
 <td style="padding:6px;">Describes how and where the dataset is made available.</td>
-<td style="padding:6px;">title: “Wikidata dump files”; mediaType: “application/gzip”; downloadURL: <a href="https://dumps.wikimedia.org/wikidatawiki/entities/">https://dumps.wikimedia.org/wikidatawiki/entities/</a></td>
+<td style="padding:6px;">
+  title: “Wikidata dump files”;<br>
+  mediaType: “application/gzip”;<br>
+  downloadURL: 
+  <a href="https://dumps.wikimedia.org/wikidatawiki/entities/">
+    https://dumps.wikimedia.org/wikidatawiki/entities/
+  </a>
+</td>
 </tr>
 </tbody>
 </table>
