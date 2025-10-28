@@ -138,7 +138,7 @@ For instance, a title is free text, a theme is an IRI, a date follows a standard
 
 *Note:* The “optional” and “required” indicators on this form apply only to the final version of the tool. For the purposes of this user study, please disregard them and complete as many fields as you are able to.
 
-Look at the example below:
+Structural relationships between elements of specification is shown below:
 
 <p align="center">
   <img src="S-rel3.png" alt="Structural relationships between components of specification ." width="900"/>
