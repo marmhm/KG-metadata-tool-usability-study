@@ -141,7 +141,7 @@ For instance, a title is free text, a theme is an IRI, a date follows a standard
 Look at the example below:
 
 <p align="center">
-  <img src="S-rel3.png" alt="Structural relationships between components of specification ." width="500"/>
+  <img src="S-rel3.png" alt="Structural relationships between components of specification ." width="900"/>
 </p>
 
 ## Writing Metadata in Turtle Format
